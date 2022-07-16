@@ -1,0 +1,25 @@
+{
+  "name": "intro-pg-promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node app.js",
+    "bull": "bull-repl"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "bull-repl": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "pg-promise": "^10.11.1",
+    "ts-node": "^10.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
